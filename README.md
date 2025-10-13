@@ -31,7 +31,7 @@ Deblurring results on the BSD dataset.
 ![BSD_Result](figs/BSD_Results.png)
 
 Deblurring results on the Real blurry video.
-![Real_Result](figs/Real_Results.png)
+![Real_Result](figs/REAL_Results.png)
 
 ## Dependencies
 - Linux (Tested on Ubuntu 18.04)
