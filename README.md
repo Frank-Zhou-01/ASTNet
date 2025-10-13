@@ -72,9 +72,9 @@ If you prepare your own dataset, please follow the following form like GOPRO/DVD
 - Run the following commands:
 ```
 Single GPU
-python basicsr/train.py -opt options/train/Deblur/train_Deblur_GOPRO.yml
+python basicsr/train.py -opt options/train/train_GOPRO.yml
 Multi-GPUs
-python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/train.py -opt options/train/Deblur/train_Deblur_GOPRO.yml --launcher pytorch
+python -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 basicsr/train.py -opt options/train/train_GOPRO.yml --launcher pytorch
 ```
 
 ### Testing
@@ -82,7 +82,7 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr
 - Organize your dataset(GOPRO/DVD/BSD) like the above form.
 - Run the following commands:
 ```
-python basicsr/test.py -opt options/test/Deblur/test_Deblur_GOPRO.yml
+python basicsr/test.py -opt options/test/test_Deblur_GOPRO.yml
 cd results
 python merge_full.py
 python calculate_psnr.py
