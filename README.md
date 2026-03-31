@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring
+=======
+[![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/xuboming8/CDVD-TSPNL/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/pytorch-1.10.1-%237732a8)](https://pytorch.org/)
+
+### ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring
+>>>>>>> f493640 (2)
 
 <hr />
 
@@ -82,7 +90,11 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 basicsr
 - Organize your dataset(GOPRO/DVD/BSD) like the above form.
 - Run the following commands:
 ```
+<<<<<<< HEAD
 python basicsr/test.py -opt options/test/test_Deblur_GOPRO.yml
+=======
+python basicsr/test.py -opt options/test/test_GOPRO.yml
+>>>>>>> f493640 (2)
 cd results
 python merge_full.py
 python calculate_psnr.py
