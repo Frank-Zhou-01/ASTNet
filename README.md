@@ -90,11 +90,9 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 basicsr
 - Organize your dataset(GOPRO/DVD/BSD) like the above form.
 - Run the following commands:
 ```
-<<<<<<< HEAD
-python basicsr/test.py -opt options/test/test_Deblur_GOPRO.yml
-=======
 python basicsr/test.py -opt options/test/test_GOPRO.yml
->>>>>>> f493640 (2)
+python basicsr/test.py -opt options/test/test_GOPRO.yml
+
 cd results
 python merge_full.py
 python calculate_psnr.py
