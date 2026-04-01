@@ -1,4 +1,5 @@
-# ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring
+# ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring (IEEE TRANSACTIONS ON CONSUMER ELECTRONICS 2026)
+
 
 <hr />
 
