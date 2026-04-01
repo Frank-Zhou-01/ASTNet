@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 # ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring
-=======
-[![LICENSE](https://img.shields.io/badge/license-MIT-green)](https://github.com/xuboming8/CDVD-TSPNL/blob/main/LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/pytorch-1.10.1-%237732a8)](https://pytorch.org/)
-
-### ASTNet: Adaptive Spatio-temporal Transformer for Efficient Video Deblurring
->>>>>>> f493640 (2)
 
 <hr />
 
@@ -44,7 +36,7 @@ Deblurring results on the Real blurry video.
 ## Dependencies
 - Linux (Tested on Ubuntu 18.04)
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
-- [PyTorch 1.10.1](https://pytorch.org/): `conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge`
+- [PyTorch 2.0.1](https://pytorch.org/): `pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118`
 - Install dependent packages :`pip install -r requirements.txt`
 - Install DSTNet :`python setup.py develop`
 
