@@ -96,5 +96,15 @@ python calculate_psnr.py
 
 ## Citation
 ```
-
+@ARTICLE{11318630,
+  author={Fu, Ying and Zhou, Chen and Tian, Jianan and Liu, Wei and Wu, Tao},
+  journal={IEEE Transactions on Consumer Electronics}, 
+  title={ASTNet: Adaptive Spatio-Temporal Transformer for Efficient Video Deblurring}, 
+  year={2026},
+  volume={72},
+  number={1},
+  pages={491-506},
+  doi={10.1109/TCE.2025.3649654}}
 ```
+## Acknowledgement 
+This project is based on [DSTNet](https://github.com/xuboming8/DSTNet), [AST](https://github.com/joshyZhou/AST) and [Restormer](https://github.com/swz30/Restormer).
