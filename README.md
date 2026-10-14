@@ -46,6 +46,9 @@ Deblurring results on the Real blurry video.
 ### Pretrained models
 - Models are available in  `'./experiments/model_name'`
 
+### dataset
+- The real blurred videos cna be downloaded in [here](https://huggingface.co/datasets/FrankZhou01/Real-Blurred-Videos/tree/main)
+
 ### Dataset Organization Form
 If you prepare your own dataset, please follow the following form like GOPRO/DVD:
 ```
